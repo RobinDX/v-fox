@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=openssl? ( dev-libs/openssl ) dev-vcs/git
+DESCRIPTION=Lacewing networking library
+EAPI=5
+HOMEPAGE=http://lacewing-project.org
+IUSE=openssl
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=openssl? ( dev-libs/openssl )
+SLOT=0
+_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
+_eclasses_=git-2	df00117322129fb906bb0a53c3d6a020
+_md5_=11a0f07fa773e6fda8c5cf7fc7a195b1
